@@ -1,1 +1,1 @@
-# goit-markup-hw-06_my_variant
+# goit-markup-hw-06
