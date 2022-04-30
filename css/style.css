@@ -711,6 +711,7 @@ p.portfolio-description {
 
 .adress-box {
   margin-top: 20px;
+  min-width: 230px;
 }
 
 .footer-list-mail {
