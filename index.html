@@ -537,6 +537,27 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-subscribe">
+          <p class="footer-social-text">присоединяйтесь</p>
+
+          <form class="footer-subscribe-form-field">
+            <input
+              type="text"
+              name="mail"
+              id="mail"
+              placeholder="E-mail"
+              class="footer-subscribe-form-input"
+            />
+
+            <button class="footer-subscribe-btn" data-modal-open>
+              Подписаться
+              <svg width="24px" height="24px" class="footer-subscribe-btn-icon">
+                <use href="./images/icons-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -550,10 +571,7 @@
         <p class="modal-main-text">Оставьте свои данные, мы вам перезвоним</p>
         <form>
           <div class="form-field">
-            <div class="form-field-lable">
-              <label for="name"> Имя </label>
-            </div>
-
+            <label for="name" class="form-field-lable"> Имя </label>
             <div class="form-field-focus-box">
               <svg class="form-field-icon">
                 <use href="./images/icons-defs.svg#icon-person-ico"></use>
@@ -563,10 +581,7 @@
           </div>
 
           <div class="form-field">
-            <div class="form-field-lable">
-              <label for="tel"> Телефон </label>
-            </div>
-
+            <label for="tel" class="form-field-lable"> Телефон </label>
             <div class="form-field-focus-box">
               <input type="text" name="tel" id="tel" />
               <svg class="form-field-icon">
@@ -574,12 +589,8 @@
               </svg>
             </div>
           </div>
-
           <div class="form-field">
-            <div class="form-field-lable">
-              <label for="mail"> Почта </label>
-            </div>
-
+            <label for="mail" class="form-field-lable"> Почта </label>
             <div class="form-field-focus-box">
               <svg class="form-field-icon">
                 <use href="./images/icons-defs.svg#icon-email-ico"></use>
@@ -588,13 +599,8 @@
               <input type="text" name="mail" id="mail" />
             </div>
           </div>
-
-          <!-- 
-          
-           
-         
           <div class="form-field comment">
-            <label for="comment"> Комментарий </label>
+            <label for="comment" class="form-field-lable"> Комментарий </label>
             <textarea
               name="comment"
               id="comment"
@@ -606,7 +612,7 @@
             <label for="agreement">
               Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
             </label>
-          </div> -->
+          </div>
 
           <button class="modal-btn">Отправить</button>
         </form>
